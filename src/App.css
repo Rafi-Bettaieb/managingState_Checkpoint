@@ -1,0 +1,112 @@
+body {
+  background-image: url("https://pwc.res.zabanshenas.ir/keep_going_2_1b256a0d46.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*TaskItem.js*/
+.task-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.complete,
+.incomplete {
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.4s ease, transform 0.4s ease;
+  width: 400px;
+  height: 100px;
+  margin-top: 30px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.complete {
+  background-color: #33ac4f;
+  transform: scale(1.1);
+  margin-right: 40px;
+  text-decoration: line-through;
+}
+
+.incomplete {
+  background-color: #ce4a55;
+  transform: scale(1);
+  margin-right: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+
+/*Header.js*/
+.header {
+  display: flex;
+  padding: 10px 20px;
+}
+
+.header img {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: start;
+}
+
+.links {
+  margin-left: 200px;
+  margin-top: 40px;
+  gap: 100px;
+}
+
+.nav-link {
+  color: gold;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 50px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #06c232;
+}
+
+/*TaskForm.js*/
+.task-form {
+  display: flex;
+  justify-content: center;
+}
+.task-name,
+.task-description {
+  width: 300px;
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.edit {
+  margin-left: 26px;
+}
+
+.task-btn {
+  font-size: 18px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/*TaskList.js*/
+
+.nb{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: gold;
+}
+
+.finish {
+  margin-top: 50px;
+  margin-left: 950px;
+}
